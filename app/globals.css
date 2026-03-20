@@ -1,8 +1,14 @@
 @import "tailwindcss";
+@import "flowbite-react/plugin/tailwindcss";
+@source "../.flowbite-react/class-list.json";
+
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --bg-1: #f8fafc;
+  --bg-2: #eef2ff;
+  --bg-3: #ffffff;
 }
 
 @theme inline {
@@ -16,11 +22,19 @@
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --bg-1: #030712;
+    --bg-2: #0b1220;
+    --bg-3: #020617;
   }
 }
 
 body {
-  background: var(--background);
+  min-height: 100vh;
+  background:
+    radial-gradient(1200px 600px at 20% -10%, color-mix(in oklab, var(--bg-2), transparent 35%), transparent 60%),
+    radial-gradient(900px 500px at 80% 0%, color-mix(in oklab, var(--bg-1), transparent 35%), transparent 55%),
+    linear-gradient(180deg, var(--bg-3), var(--background));
+  background-attachment: fixed;
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
 }
