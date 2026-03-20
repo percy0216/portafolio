@@ -2,10 +2,10 @@ import Link from "next/link";
 
 // ── Actualiza estos datos con los tuyos ──────────────────────────────────────
 const CONTACT = {
-  email:    "tuemail@gmail.com",
-  linkedin: "https://linkedin.com/in/tu-usuario",
-  github:   "https://github.com/tu-usuario",
-  whatsapp: "https://wa.me/51999999999", // formato: 51 + número sin espacios
+  email:    "rpercy738@gmail.com",
+  linkedin: "https://www.linkedin.com/in/percy-johan-rojas-maldonado-745435202/",
+  github:   "https://github.com/percy0216",
+  whatsapp: "https://wa.me/51919688588", // formato: 51 + número sin espacios
 };
 
 // ── Tarjetas de contacto ─────────────────────────────────────────────────────
