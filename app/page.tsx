@@ -65,7 +65,7 @@ export default function Home() {
               Hablemos de tu proyecto
             </Link>
             <a
-              href="/cv/Percy-CV.pdf"
+              href="/cv/percy-cv.pdf"
               download
               className="inline-flex items-center justify-center rounded-lg border border-dashed border-gray-300 px-5 py-2.5 text-sm font-medium text-gray-600 hover:border-gray-400 hover:text-gray-900 dark:border-gray-700 dark:text-gray-400 dark:hover:border-gray-500 dark:hover:text-white"
             >
